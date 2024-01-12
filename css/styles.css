@@ -81,11 +81,11 @@ a {
     height: auto;
     float: left;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 #navbar img {
-    max-width: 100%;
+    max-width: 90%;
     height: auto;
     display: block;
     margin: 0 auto;
