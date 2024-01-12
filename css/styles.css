@@ -36,3 +36,9 @@ a {
     text-decoration: none;
 }
 
+.container {
+    margin: auto;
+    max-width: 80%;
+    /*overflow: auto;*/  
+    padding: 0 10px;
+}
