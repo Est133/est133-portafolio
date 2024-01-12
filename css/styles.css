@@ -270,9 +270,8 @@ a {
     }
 
     .projects-row {
-        display: block;
+        display: flex;
         justify-content: space-around;
-        flex-wrap: nowrap;
     }
 
     .projects-item {
