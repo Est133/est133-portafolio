@@ -172,7 +172,7 @@ a {
 }
 
 .projects-row {
-    display: flex;
+    display: block;
     justify-content: space-around;
     flex-wrap: wrap-reverse;
 }
@@ -201,7 +201,7 @@ a {
 }
 
 .about-row {
-    display: flex;
+    display: block;
     flex-wrap: nowrap;
     justify-content: space-around;
 }
