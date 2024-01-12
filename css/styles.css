@@ -154,6 +154,12 @@ a {
     text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+    #showcase {
+        background-size: contain; /* Puedes ajustar "contain" según tus preferencias */
+    }
+}
+
 #showcase .btn {
     margin-top: 40vh;
     text-align: center;
@@ -219,6 +225,13 @@ a {
 .about-row-experience img {
     width: 100%; /* Ajustado el ancho para pantallas más pequeñas */
     height: auto;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (min-resolution: 192dpi) {
+    .about-row-experience img {
+        max-width: 100%; /* Ajusta la anchura máxima para pantallas de alta densidad de píxeles */
+        height: auto; /* Permite que la altura se ajuste proporcionalmente */
+    }
 }
 
 .about-row-me {
