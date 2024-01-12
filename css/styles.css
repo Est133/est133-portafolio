@@ -149,7 +149,7 @@ a {
     background: url("https://raw.githubusercontent.com/Est133/est133-portafolio/main/imgenes/dibujo3.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 5% 5%; /* Cambiado de "contain" a "cover" para que la imagen se ajuste completamente */
+    background-size: length; /* Cambiado de "contain" a "cover" para que la imagen se ajuste completamente */
     height: 80vh;
     text-align: center;
 }
