@@ -223,13 +223,13 @@ a {
 }
 
 .about-row-experience img {
-    width: 100%; /* Ajustado el ancho para pantallas más pequeñas */
+    width: 50%; /* Ajustado el ancho para pantallas más pequeñas */
     height: auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
        only screen and (min-resolution: 192dpi) {
     .about-row-experience img {
-        max-width: 100%; /* Ajusta la anchura máxima para pantallas de alta densidad de píxeles */
+        max-width: 50%; /* Ajusta la anchura máxima para pantallas de alta densidad de píxeles */
         height: auto; /* Permite que la altura se ajuste proporcionalmente */
     }
 }
