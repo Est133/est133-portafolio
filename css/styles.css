@@ -42,3 +42,25 @@ a {
     /*overflow: auto;*/  
     padding: 0 10px;
 }
+
+.btn {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+}
+
+.btn-outline {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background: #1a1717;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 3rem;
+}
+
+.btn-outline:hover {
+    background-color: rgb(35, 127, 207);
+    color: #161515;
+}
