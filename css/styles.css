@@ -79,6 +79,7 @@ a {
     width: 100%;
     max-width: 200px;
     height: auto;
+    float: left;
 }
 
 #navbar img {
