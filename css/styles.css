@@ -144,21 +144,13 @@ a {
         padding: 0.3rem 0.6rem;
     }
 }
-
 #showcase {
-    width: 100%; /* Ajusta el ancho del contenedor según tus necesidades */
     background: url("https://raw.githubusercontent.com/Est133/est133-portafolio/main/imgenes/dibujo3.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain; /* Cambiado de "contain" a "cover" para que la imagen se ajuste completamente */
-    height: 50vh;
+    background-size: cover; /* Cambiado de "contain" a "cover" para que la imagen se ajuste completamente */
+    height: 100vh;
     text-align: center;
-}
-
-@media only screen and (max-width: 768px) {
-    #showcase {
-        background-size: cover; /* Puedes ajustar "contain" según tus preferencias */
-    }
 }
 
 #showcase .btn {
