@@ -144,4 +144,17 @@ a {
     }
 }
 
+#showcase {
+    background: url("https://raw.githubusercontent.com/Est133/est133-portafolio/main/imgenes/dibujo3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* Cambiado de "contain" a "cover" para que la imagen se ajuste completamente */
+    height: 100vh;
+    text-align: center;
+}
+
+#showcase .btn {
+    margin-top: 40vh;
+    text-align: center;
+}
 
