@@ -174,7 +174,7 @@ a {
 .projects-row {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 .projects-item {
@@ -202,7 +202,7 @@ a {
 
 .about-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
 }
 
