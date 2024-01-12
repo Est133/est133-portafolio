@@ -272,7 +272,7 @@ a {
     .projects-row {
         display: flex;
         justify-content: space-around;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 
     .projects-item {
