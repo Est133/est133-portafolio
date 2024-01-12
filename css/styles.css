@@ -147,12 +147,11 @@ a {
 
 #showcase {
     width: 100%; /* Ajusta el ancho del contenedor según tus necesidades */
-    height: 100vh; /* Ajusta la altura del contenedor según tus necesidades, usando la altura de la ventana gráfica (viewport height) en este caso */
     background: url("https://raw.githubusercontent.com/Est133/est133-portafolio/main/imgenes/dibujo3.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; /* Cambiado de "contain" a "cover" para que la imagen se ajuste completamente */
-    height: 80vh;
+    height: 50vh;
     text-align: center;
 }
 
