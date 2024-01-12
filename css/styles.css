@@ -146,7 +146,7 @@ a {
 }
 
 #showcase {
-    width: 80%; /* Ajusta el ancho del contenedor según tus necesidades */
+    width: 100%; /* Ajusta el ancho del contenedor según tus necesidades */
     background: url("https://raw.githubusercontent.com/Est133/est133-portafolio/main/imgenes/dibujo3.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -157,7 +157,7 @@ a {
 
 @media only screen and (max-width: 768px) {
     #showcase {
-        background-size: contain; /* Puedes ajustar "contain" según tus preferencias */
+        background-size: cover; /* Puedes ajustar "contain" según tus preferencias */
     }
 }
 
