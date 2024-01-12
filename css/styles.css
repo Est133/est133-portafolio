@@ -230,6 +230,8 @@ a {
     .about-row-ex
 
 
+/* ... (tu código anterior) */
+
 /* Añade el siguiente código para dispositivos móviles */
 @media only screen and (max-width: 480px) {
     h2 {
@@ -264,40 +266,53 @@ a {
     .logo1 img {
         width: 80%;
         max-width: 300px;
+        height: auto; /* Asegura que la altura se ajuste proporcionalmente */
     }
+
     .projects-row {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 
     .projects-item {
-    text-align: center;
-    width: 30%;
-    margin-bottom: 20px;
+        text-align: center;
+        width: 100%; /* Ocupa todo el ancho en dispositivos móviles */
+        margin-bottom: 20px;
     }
 
     .projects-item img {
-    max-width: 100%;      
+        max-width: 100%; /* Asegúrate de que las imágenes no superen el ancho del contenedor */
     }
 
-     #projects a {
-    font-weight: bold;
+    #projects a {
+        font-weight: bold;
     }
 
     .about-row-experience {
         width: 100%;
+        text-align: center; /* Centra el contenido en dispositivos móviles */
+    }
+
+    .about-row-experience .experience-item {
+        width: 100%; /* Ocupa todo el ancho en dispositivos móviles */
+        box-sizing: border-box;
+        margin-bottom: 12px;
+        text-align: center; /* Centra el contenido en dispositivos móviles */
     }
 
     .about-row-experience img {
-        width: 100%;
+        max-width: 70%; /* Ajusta el ancho máximo de las imágenes */
+        height: auto;
     }
 
     .about-row-me {
         width: 100%;
         margin-top: 40px;
         padding-left: 0;
+        text-align: center;
     }
+}
 
     .contact-row-icon img {
         width: 30px;
