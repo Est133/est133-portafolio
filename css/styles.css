@@ -150,7 +150,7 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; /* Cambiado de "contain" a "cover" para que la imagen se ajuste completamente */
-    height: 100vh;
+    height: 50vh;
     text-align: center;
 }
 
