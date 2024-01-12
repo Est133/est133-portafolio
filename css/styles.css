@@ -520,6 +520,8 @@ a {
     #projects a {
         font-size: 0.8rem;
         font-weight: bold;
+        margin-left: auto; /* Alinea a la derecha */
+        margin-right: auto; /* Alinea a la izquierda */
     }
 
     .about-row-experience {
