@@ -158,3 +158,8 @@ a {
     text-align: center;
 }
 
+.logo1 img {
+    width: 80%; /* Ajustado el ancho del logo para pantallas más pequeñas */
+    max-width: 500px;
+    height: auto;
+}
