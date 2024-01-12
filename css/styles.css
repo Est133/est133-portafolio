@@ -270,7 +270,7 @@ a {
     }
 
     .projects-row {
-        display: flex;
+        display: grid;
         justify-content: space-around;
         flex-wrap: nowrap;
     }
