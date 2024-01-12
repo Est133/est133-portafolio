@@ -166,3 +166,105 @@ a {
     max-width: 500px;
     height: auto;
 }
+.projects-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projects-item {
+    text-align: center;
+    width: 100%; /* Ajustado el ancho para pantallas más pequeñas */
+    margin-bottom: 20px;
+}
+
+.projects-item img {
+    max-width: 100%;
+}
+
+#projects a {
+    font-weight: bold;
+}
+
+#projects a:hover {
+    color: #20dce2;
+}
+#about {
+    padding: 40px 0; /* Ajustado el espaciado en la sección Acerca de */
+    background: #dcd8f8;
+}
+
+.about-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-row-experience {
+    width: 100%; /* Ajustado el ancho para pantallas más pequeñas */
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+.about-row-experience .experience-item {
+    width: 100%; /* Ajustado el ancho para pantallas más pequeñas */
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+.about-row-experience img {
+    width: 100%; /* Ajustado el ancho para pantallas más pequeñas */
+    height: auto;
+}
+
+.about-row-me {
+    width: 100%; /* Ajustado el ancho para pantallas más pequeñas */
+    padding-left: 0;
+    text-align: center;
+    margin-top: 40px; /* Ajustado el margen superior */
+}
+
+.about-row-me p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #3f2f2f;
+    margin-top: 20px; /* Ajustado el margen superior */
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Estilos para la sección de Contacto */
+#contact {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: left;
+}
+
+.contact-row-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-row-icon img {
+    width: 50px; /* Ajustado el tamaño de las imágenes */
+    margin-bottom: 10px;
+}
+
+.contact-row-icon p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #c45e99;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #fff;
+    color: #080808;
+    padding: 20px 0;
+    text-align: center;
+}
