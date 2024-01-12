@@ -229,7 +229,6 @@ a {
        only screen and (min-resolution: 192dpi) {
     .about-row-ex
 
-           /* ... (tu código anterior) */
 
 /* Añade el siguiente código para dispositivos móviles */
 @media only screen and (max-width: 480px) {
@@ -266,10 +265,24 @@ a {
         width: 80%;
         max-width: 300px;
     }
+    .projects-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
 
     .projects-item {
-        width: 100%;
-        margin-bottom: 20px;
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+    }
+
+    .projects-item img {
+    max-width: 100%;      
+    }
+
+     #projects a {
+    font-weight: bold;
     }
 
     .about-row-experience {
