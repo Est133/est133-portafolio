@@ -39,7 +39,7 @@ a{
 
 .container {
     margin: auto;
-    max-width: 80%;
+    max-width: auto;
     overflow: auto;
     padding: 0 10px;
 }
@@ -182,8 +182,8 @@ a{
 
 .projects-item {
     text-align: center; /* Alinea el contenido en el centro si es necesario */
-    width: 30%;
-    margin-bottom: 20px;
+    width: 40%;
+    margin-bottom: 30px;
 
 }
 
@@ -198,9 +198,12 @@ a{
     color: #20dce2; /* Cambia el color al pasar el mouse */
 }
 
-#about {
-    padding: 80px 0;
+#about { 
     background: #dcd8f8;
+    margin-top: 50px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 .about-row {
@@ -208,38 +211,40 @@ a{
 }
 
 .about-row-experience {
-    width: 45%;
+    width: 50%; 
     padding-left: 12px;
     margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
-.about-row-experience .experience-item {
-    width: 33.33%; /* Asegura que haya 3 elementos por fila */
-    box-sizing: border-box; /* Incluye el padding y el border en el ancho */
+.experience-item {
+    width: 33.33%; 
+    box-sizing: border-box;
     margin-bottom: 12px;
+    
 }
 
 .about-row-experience img {
-    width: 30%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    width: 50px; /* Ajusta el ancho de la imagen al 100% del contenedor */
     height: auto;
     color: #2c1f74;
 }
 
 .about-row-me {
-    width: 50%;
-    padding-left: 70px;
+    width: 40%;
+    padding-left: 30px;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 90px;
+    gap: 16px;
 }
 
 .about-row-me p {
     font-size: 16px;
+    text-align: center;
     line-height: 1.6;
     color: #3f2f2f;
     margin-top: 100px;
-    margin-bottom: 60px;
+    margin-bottom: 90%;
     font-weight: bold;
 }
 
@@ -256,111 +261,19 @@ a{
     align-items: center; /* Centra los elementos verticalmente */
 }
 
-.contact-row-icon img {
-    width: 10%; /* Ancho de las imágenes */
-    margin-bottom: 10px;
-}
-
-.contact-row-icon p {
-    margin: 0; /* Elimina el margen del párrafo */
-    font-size: 16px;
-    line-height: 1.6;
-    color: #c45e99;
-    margin-top: 100px;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-/* Agrega estilos al footer */
 footer {
-    background-color: #fff; /* Color de fondo del footer */
-    color: #080808; /* Color del texto en el footer */
-    padding: 20px 0; /* Espaciado interno en el footer */
-    text-align: center; /* Alineación del texto al centro */
+    background-color: #ececec; /* Cambia el color de fondo según tus preferencias */
+    color:#000; /* Cambia el color del texto según tus preferencias */
+    padding: 20px 0; /* Ajusta el espaciado interno según tus preferencias */
+    text-align: center; /* Alinea el texto al centro */
+}
+.container {
+    max-width: 1200px; /* Establece el ancho máximo del contenedor según tus preferencias */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
 }
 
-.container p {
-    margin: 0; /* Elimina el margen del párrafo dentro del footer */
+p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    font-size: 14px; /* Ajusta el tamaño del texto según tus preferencias */
+    font-weight: bold; /* Puedes ajustar la negrita según tus preferencias */
 }
-
- @media only screen and (max-width: 768px) {
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    h4 {
-        font-size: 1.2rem;
-    }
-
-    .btn {
-        font-size: 0.8rem;
-        padding: 0.5rem 1rem;
-    }
-
-    .btn-outline {
-        padding: 1.5% 3%;
-    }
-
-    #navbar1 .btn-outline {
-        /* Ajusta estos valores según tus necesidades */
-        font-size: 0.8rem;
-        padding: 0.3rem 0.6rem;
-    }
-}
- @media only screen and (max-width: 768px) {
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    h4 {
-        font-size: 1.2rem;
-    }
-
-    .btn {
-        font-size: 0.8rem;
-        padding: 0.5rem 1rem;
-    }
-
-    .btn-outline {
-        padding: 1.5% 3%;
-    }
-
-    #navbar1 .btn-outline {
-        /* Ajusta estos valores según tus necesidades */
-        font-size: 0.8rem;
-        padding: 0.3rem 0.6rem;
-    }
-}
- @media only screen and (max-width: 768px) {
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    h4 {
-        font-size: 1.2rem;
-    }
-
-    .btn {
-        font-size: 0.8rem;
-        padding: 0.5rem 1rem;
-    }
-
-    .btn-outline {
-        padding: 1.5% 3%;
-    }
-
-    #navbar1 .btn-outline {
-        /* Ajusta estos valores según tus necesidades */
-        font-size: 0.8rem;
-        padding: 0.3rem 0.6rem;
-    }
-}
- @media only screen and (max-width: 768px) {
-  .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)
-  gap: 16px
- }
- }
-
-
